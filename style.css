@@ -1,0 +1,41 @@
+body {
+    background-color: #e6e6e6;
+    color: #595959;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+tr, td {
+    border: 1px solid black;
+}
+
+img {
+    border-radius: 50%;
+}
+
+p, h1, h2, table, h3, img {
+    text-align: center;
+}
+
+a {
+    color: black;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-table {
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.container {
+	text-align: center;
+}
+.container ul {
+	margin: 10px 0;
+    padding: 2px;
+    list-style: none;
+}

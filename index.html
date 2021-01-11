@@ -4,6 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Markdown warmup html</title>
+		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
 		<h1>Luis Alejandro Montilla</h1>
@@ -14,11 +15,12 @@
 		<img
 			src="https://user-images.githubusercontent.com/59319966/71984883-00b37e80-322a-11ea-8918-174045d3c0df.jpg"
 			alt="Photo"
+			class="center"
 		/>
 		<p>
 			I'm open-minded, always willing to learn and to live new experiences.
 		</p>
-		<table>
+		<table class="center-table">
 			<tr>
 				<th>About me</th>
 				<th></th>
@@ -47,16 +49,18 @@
 		</table>
 
 		<h2>Hobbies</h2>
-		<ul>
-			<li>Swimming 🏊🏻‍♂️</li>
-			<li>Football ⚽️</li>
-				<ul>
-					<li>I'm a fan of Real Madrid ❤️</li>
-				</ul>
-			<li>Poker ♠️ ♣️ ♥️ ♦️</li>
-			<li>Hiking</li>
-			<li>Visit museums (especially about WWII)</li>
-		</ul>
+		<div class="container">
+			<ul class="vertical-center">
+				<li>- Swimming 🏊🏻‍♂️</li>
+				<li>- Football ⚽️</li>
+					<ul>
+						<li>I'm a fan of Real Madrid ❤️</li>
+					</ul>
+				<li>- Poker ♠️ ♣️ ♥️ ♦️</li>
+				<li>- Hiking</li>
+				<li>- Visit museums (especially about WWII)</li>
+			</ul>
+		</div>
 
 		<h2>You can always count on me when...</h2>
 		<p>You can contact me if you have technical questions or if you are blocked in HTML, Javascript, Node, React...
